@@ -1,0 +1,19 @@
+{
+  "kontaks": [
+      {
+          "id": 1,
+          "nama": "tangguh",
+          "noHp": "082112312333"
+      },
+      {
+          "id": 2,
+          "nama": "riyadi",
+          "noHp": "082112312312"
+      },
+      {
+          "id": 3,
+          "nama": "tangguhriyadi",
+          "noHp": "082154654565"
+      }
+  ]
+}

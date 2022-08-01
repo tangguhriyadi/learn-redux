@@ -1,13 +1,10 @@
-import ListKontak from './components/listKontak';
-import {useState} from 'react'
-
-import './App.css';
+import { ListKontak } from "./components";
 
 function App() {
-  const [name, setName] = useState('tangguh')
   return (
-    <div className="App">
+    <div style={{padding:'30px'}}>
       <h2> List Kontak APP</h2>
+      <hr />
       <ListKontak />
     </div>
   );

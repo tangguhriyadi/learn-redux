@@ -21,13 +21,13 @@ export const getListKontak = () => {
             url:'http://localhost:3004/kontaks',
             timeout:120000
         }).then(res => {
-            console.log('3. berhasil dapat data: ', res.data)
+            console.log('3. berhasil dapat data: ', res)
             dispatch({
                 type: GET_LIST_KONTAK,
                 payload: {
-                    loading:false,
-                    data:res.data,
-                    errorMessage:false
+                    loading: false,
+                    data: res.data,
+                    errorMessage: false
                 }
             })
         }).catch(err => {
